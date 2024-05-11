@@ -37,7 +37,7 @@ const Home = () => {
                     {
                         heroData && heroData.map(data => (
                             <div key={data.id} className="lg:w-[190] py-4 px-2 bg-cardOverlay backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg">
-                                <img className='w-20 lg:w-40 lg:-mt-20 -mt-10' src={data.imgSrc} alt="Ice-cream-1" />
+                                <img className='w-20 lg:w-40 lg:-mt-20 -mt-10' src={data.imgSrc} alt="imgs" />
                                 <p className='text-base lg:text-xl font-semibold text-textColor mt-2 lg:mt-4'>{data.name}</p>
                                 <p className='text-sm text-lighttextGray font-semibold my-1 lg:my-3'>{data.desc}</p>
                                 <p className='text-[12px] lg:text-sm font-semibold text-headingColor'><span className='text-xs text-red-600'>$</span>{data.price}</p>
